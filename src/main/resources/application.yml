@@ -1,0 +1,27 @@
+server:
+  port: 8084
+
+ollama:
+  apiUrl: http://127.0.0.1:11434
+  #  中文支持友好
+  embeddingModelName: aerok/acge_text_embedding
+  #   # 本地的大模型 llama3.1:8b    glm4   qwen2:7b  gemma  sam4096/qwen2tools qwen2.5:14b
+  modelName: llama3.1:8b
+
+
+
+vectorDbName: SpringAiCollection
+#获取jar运行目录下拼接下面配置的路径作为配置文件路径
+jsonFilePath: data\sql.json
+
+dbName: vanna
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/${dbName}?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+
