@@ -1,4 +1,4 @@
-感谢vanna团队的付出，我参照了[vanna](https://github.com/vanna-ai/vanna)的代码，并修改了部分代码，目前只做了ollama 的适配
+感谢vanna团队的付出，我参照了[vanna](https://github.com/vanna-ai/vanna)的代码，并修改了部分代码，目前只做了ollama 的适配，
 感谢[spring ai](https://github.com/spring-projects/spring-ai)团队的付出, java sdk使用了spring ai的ollama ，方便后期升级
 
 只是一个参照 英文部分翻译为中文，后面还会进行重构
