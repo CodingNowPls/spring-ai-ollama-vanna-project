@@ -3,7 +3,7 @@
 
 只是一个参照 英文部分翻译为中文，后面还会进行重构
 
-目前内置了vanna ，也提供了对外的ollama的rest
+目前内置了vanna的前端部分的UI ，也提供了对外的ollama的rest
 api，可以使用[ollama-webui-lite](https://github.com/ollama-webui/ollama-webui-lite)等开源的对接ollama的webui
 
 目前只是做了一个简易测试版本，后期会做相应的SDK方便使用

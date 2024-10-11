@@ -95,7 +95,7 @@ public class VannaApiController {
                 Map<String, String> sqlData = new HashMap<>();
                 sqlData.put("question", firstPart);
                 sqlData.put("sql", secondPart);
-                appendToJsonFile(jsonFilePath + "/sql.json", sqlData);
+                appendToJsonFile(jsonFilePath, sqlData);
                 // 调用 train 并传递 firstPart 作为 question, secondPart 作为 sql
                 id = vn.train(firstPart, secondPart, null, null);
             }
@@ -109,7 +109,7 @@ public class VannaApiController {
                 Map<String, String> ddlData = new HashMap<>();
                 ddlData.put("question", firstPart);
                 ddlData.put("ddl", secondPart);
-                appendToJsonFile(jsonFilePath + "/ddl.json", ddlData);
+                //appendToJsonFile(jsonFilePath + "/ddl.json", ddlData);
                 id = vn.train(firstPart, null, secondPart, null);
             }
             // 如果 documentation 不为空，进行切割并设置 firstPart 为 question，secondPart 为 documentation
