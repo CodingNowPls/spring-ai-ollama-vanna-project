@@ -6,7 +6,7 @@
 目前内置了vanna的前端部分的UI ，也提供了对外的ollama的rest
 api，可以使用[ollama-webui-lite](https://github.com/ollama-webui/ollama-webui-lite)等开源的对接ollama的webui
 
-目前只是做了一个简易测试版本，后期会做相应的SDK方便使用
+目前只是做了一个简易测试版本，属于java版的text to sql ，后期会做相应的SDK方便使用
 
 期待 spring ai 以及java ai 大模型会发展的越来越好
 
